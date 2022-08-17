@@ -1,0 +1,9 @@
+
+
+/* saection 2 */
+
+.form-mail input::placeholder
+{
+    color:white;
+    text-align: center;
+}
