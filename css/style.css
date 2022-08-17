@@ -7,3 +7,18 @@
     color:white;
     text-align: center;
 }
+
+
+
+
+/* responcive of header*/
+@media only screen and (max-width: 572px)
+{
+    header .text-header{text-align: center!important; padding-top: 20px;}
+    header .imag-header{display: none!important;}
+}
+/* responcive seaction 2 */
+@media only screen and (max-width: 572px)
+{
+    .form-mail .text-email{text-align: center; padding: 20px 0px}
+}
