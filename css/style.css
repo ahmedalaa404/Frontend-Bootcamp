@@ -12,7 +12,8 @@
 {
     width: 0;
     height: calc(100%/3);
-    background-color: rgb(255, 255, 255);
+    background-color: #59626c92;
+
     content: "";
 position: absolute;
 top: 0;
@@ -23,7 +24,7 @@ transition: 1s width;
 {
     width: 0;
     height: calc(100%/3);
-    background-color: rgb(255, 255, 255);
+    background-color: #59626c92;
     content: "";
 position: absolute;
 bottom: 0;
@@ -33,14 +34,15 @@ transition: 1s width;
 .navbar li:hover::before{  width: 100%;}
 .navbar li:hover::after{  width: 100%;}
 .navbar li:hover a::before{    width: 100%;}
-.navbar li a{position: relative;    transition: 0.5s  1s color; font-size: 23px;}
+.navbar li:hover a{color: rgb(255, 255, 255) !important; }
+.navbar li a{position: relative;    transition: 0.5s  1.2s color; font-size: 23px;}
 .navbar li a::before
 {
     width: 0;
     position: absolute;
     content: "";
     height:33.333333%;
-    background-color: rgb(255, 255, 255);
+    background-color: #46526092;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
